@@ -23,16 +23,16 @@ grid .f.pane.one.ebxlab -column 3 -row 0 -padx 3 -pady 3
 ttk::entry .f.pane.one.ebxreg -width 8 -textvariable ebxi; set ebxi "00000000"
 grid .f.pane.one.ebxreg -column 4 -row 0 -padx 3 -pady 3
 
-ttk::label .f.pane.one.edxlab -text "edx"
-grid .f.pane.one.edxlab -column 0 -row 1 -padx 3 -pady 3
-ttk::entry .f.pane.one.edxreg -width 8 -textvariable ecxi; set ecxi "00000000"
-grid .f.pane.one.edxreg -column 1 -row 1 -padx 3 -pady 3
+ttk::label .f.pane.one.ecxlab -text "ecx"
+grid .f.pane.one.ecxlab -column 0 -row 1 -padx 3 -pady 3
+ttk::entry .f.pane.one.ecxreg -width 8 -textvariable ecxi; set ecxi "00000000"
+grid .f.pane.one.ecxreg -column 1 -row 1 -padx 3 -pady 3
 ttk::frame .f.pane.one.empty2 -width 20
 grid .f.pane.one.empty2 -column 2 -row 1
-ttk::label .f.pane.one.ecxlab -text "ecx"
-grid .f.pane.one.ecxlab -column 3 -row 1 -padx 3 -pady 3
-ttk::entry .f.pane.one.ecxreg -width 8 -textvariable edxi; set edxi "00000000"
-grid .f.pane.one.ecxreg -column 4 -row 1 -padx 3 -pady 3
+ttk::label .f.pane.one.edxlab -text "edx"
+grid .f.pane.one.edxlab -column 3 -row 1 -padx 3 -pady 3
+ttk::entry .f.pane.one.edxreg -width 8 -textvariable edxi; set edxi "00000000"
+grid .f.pane.one.edxreg -column 4 -row 1 -padx 3 -pady 3
 
 ttk::label .f.pane.one.ebplab -text "ebp"
 grid .f.pane.one.ebplab -column 0 -row 2 -padx 3 -pady 3
@@ -69,16 +69,16 @@ grid .f.pane.two.ebxlab -column 3 -row 0 -padx 3 -pady 3
 ttk::entry .f.pane.two.ebxreg -width 8 -textvariable ebxo; set ebxo ""
 grid .f.pane.two.ebxreg -column 4 -row 0 -padx 3 -pady 3
 
-ttk::label .f.pane.two.edxlab -text "edx"
-grid .f.pane.two.edxlab -column 0 -row 1 -padx 3 -pady 3
-ttk::entry .f.pane.two.edxreg -width 8 -textvariable ecxo; set ecxo ""
-grid .f.pane.two.edxreg -column 1 -row 1 -padx 3 -pady 3
+ttk::label .f.pane.two.ecxlab -text "ecx"
+grid .f.pane.two.ecxlab -column 0 -row 1 -padx 3 -pady 3
+ttk::entry .f.pane.two.ecxreg -width 8 -textvariable ecxo; set ecxo ""
+grid .f.pane.two.ecxreg -column 1 -row 1 -padx 3 -pady 3
 ttk::frame .f.pane.two.empty2 -width 20
 grid .f.pane.two.empty2 -column 2 -row 1
-ttk::label .f.pane.two.ecxlab -text "ecx"
-grid .f.pane.two.ecxlab -column 3 -row 1 -padx 3 -pady 3
-ttk::entry .f.pane.two.ecxreg -width 8 -textvariable edxo; set edxo ""
-grid .f.pane.two.ecxreg -column 4 -row 1 -padx 3 -pady 3
+ttk::label .f.pane.two.edxlab -text "edx"
+grid .f.pane.two.edxlab -column 3 -row 1 -padx 3 -pady 3
+ttk::entry .f.pane.two.edxreg -width 8 -textvariable edxo; set edxo ""
+grid .f.pane.two.edxreg -column 4 -row 1 -padx 3 -pady 3
 
 ttk::label .f.pane.two.ebplab -text "ebp"
 grid .f.pane.two.ebplab -column 0 -row 2 -padx 3 -pady 3
